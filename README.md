@@ -1,4 +1,5 @@
-# WavePrompt (AI Prompt Archive)
+# WavePrompt 
+(AI Prompt Archive)
 
 > **1060+ ChatGPT Prompts Library for Creators & Developers**
 > **Live Demo:** [https://wavecorestudio.github.io/WavePrompt/](https://wavecorestudio.github.io/WavePrompt/)
