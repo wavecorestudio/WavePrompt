@@ -17,6 +17,14 @@
   <body>
     <div class="container">
       <header>
+        <div class="lang-switch-wrapper">
+          <span class="lang-label">EN</span>
+          <label class="switch">
+            <input type="checkbox" id="langToggle" />
+            <span class="slider"></span>
+          </label>
+          <span class="lang-label">KO</span>
+        </div>
         <div class="logo">
           <i class="fa-solid fa-wave-square"></i> WavePrompt
         </div>
@@ -58,7 +66,69 @@
       <div class="pagination" id="pagination"></div>
     </div>
 
+    <footer class="dev-footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h2><i class="fa-solid fa-wave-square"></i> WavePrompt</h2>
+          <p class="version-tag">v1.0.0 Stable Build</p>
+          <p class="brand-desc">
+            High-performance AI Prompt Archive architected for creators.
+          </p>
+        </div>
+
+        <div class="tech-specs">
+          <h4><i class="fa-solid fa-microchip"></i> System Architecture</h4>
+          <div class="specs-grid">
+            <div class="spec-item">
+              <span class="spec-label">Core Engine</span>
+              <span class="spec-value">Vanilla JS (ES6+)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Data Binding</span>
+              <span class="spec-value">Async Fetch API</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Rendering</span>
+              <span class="spec-value">Client-Side (CSR)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Database</span>
+              <span class="spec-value">JSON Serialization</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">UI Design</span>
+              <span class="spec-value">Neumorphism 2.0</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Hosting</span>
+              <span class="spec-value">GitHub Pages CI/CD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dev-profile">
+          <h4><i class="fa-solid fa-code"></i> Engineered By</h4>
+          <div class="profile-card">
+            <div class="status-indicator">
+              <span class="dot"></span> System Online
+            </div>
+            <p class="dev-name">Jeong Seung Hyeon</p>
+            <p class="dev-role">Web Publisher & FE Developer</p>
+            <p class="studio-name">@WaveCore Studio</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-bar">
+        <p>&copy; 2025 WaveCore Studio. All Exception Handled.</p>
+      </div>
+    </footer>
+
     <div id="toast">Copied to Clipboard!</div>
+
+    <button id="topBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
   </body>
